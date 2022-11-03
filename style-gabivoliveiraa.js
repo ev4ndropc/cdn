@@ -22,4 +22,12 @@
 			}, i*50)
 		})
 
+		$('article').toArray().forEach((article, index) => {
+		    if(index < 11) {
+			$(article).addClass('animate__animated animate__fadeInLeft')    
+		    }else{
+		    	$(article).addClass('animate__animated animate__fadeInRight')
+		    }
+		})
+
 		$('.swiper-slide').addClass('animate__animated animate__fadeIn')
