@@ -21,3 +21,5 @@
 				$(img).addClass('animate__animated animate__fadeIn')
 			}, i*50)
 		})
+
+		$('.swiper-slide').addClass('animate__animated animate__fadeIn')
